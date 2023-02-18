@@ -64,12 +64,12 @@ p {
 
 #features {
     text-align: center;
+    padding: 7% 15%;
 }
 
 .features-icon {
     color: #ef8172;
-    transform: scale(500%);
-    margin: 30% 0 13% 0;
+    margin: 1rem;
 }
 
 .features-icon:hover {
@@ -77,5 +77,5 @@ p {
 }
 
 .features-items {
-    padding: 30px;
+    padding: 4.5%;
 }
