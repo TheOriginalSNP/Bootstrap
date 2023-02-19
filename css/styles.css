@@ -26,14 +26,7 @@ p {
     line-height: 1.5;
 }
 
-
 /* Title */
-
-#title {
-    background-color: #ff4c68;
-    color: white;
-    text-align: left;
-}
 
 .title-image {
     width: 20%;
@@ -44,12 +37,24 @@ p {
 
 #title .container-fluid {
     padding: 2% 15% 7%;
+    text-align: left;
 }
 
 /* Containers */
 
 .container-fluid {
     padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
 }
 
 /* Navigation Bar */
@@ -82,7 +87,6 @@ p {
 /* Features */
 
 #features {
-    background-color: white;
     position: relative;
 }
 
@@ -108,7 +112,6 @@ p {
 #testimonials {
     padding: 7% 15%;
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonials-image {
@@ -179,15 +182,7 @@ p {
 
 }
 
-/* Call to Action*/
-
-#cta {
-    color: white;
-    background-color: #ff4c68;
-}
-
 /* Footer */
-
 
 .footer-icon {
     margin-bottom: 1.5rem;
