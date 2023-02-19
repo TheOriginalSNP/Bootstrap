@@ -132,3 +132,43 @@ p {
 .row {
     padding: 3% 2%;
 }
+
+.card {
+    margin-bottom: 30px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+    
+}
+
+/* Call to Action*/
+
+#cta {
+    color: white;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+/* Footer */
+
+#footer  {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon {
+    margin-bottom: 1.5rem;
+    padding: 0 10px;
+}
